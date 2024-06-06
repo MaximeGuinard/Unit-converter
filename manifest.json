@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Unit Converter 📅",
+    "version": "1.1",
+    "description": "convert units (e.g. Celsius to Fahrenheit, kilometers to miles) directly from the toolbar. 🔢",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      }
+    },
+    "icons": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  }  

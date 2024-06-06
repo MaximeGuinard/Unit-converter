@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unit Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Unit Converter</h1>
+  <div class="converter">
+    <div class="input-group">
+      <label for="value">Value:</label>
+      <input type="number" id="value" placeholder="Enter value" />
+    </div>
+    <div class="input-group">
+      <label for="unit">Convert from:</label>
+      <select id="unit">
+        <option value="CelsiusToFahrenheit">Celsius to Fahrenheit</option>
+        <option value="KilometersToMiles">Kilometers to Miles</option>
+        <option value="MetersToFeet">Meters to Feet</option>
+        <option value="GramsToOunces">Grams to Ounces</option>
+        <option value="LitersToGallons">Liters to Gallons</option>
+        <option value="KilogramsToPounds">Kilograms to Pounds</option>
+        <option value="CelsiusToKelvin">Celsius to Kelvin</option>
+        <option value="MillilitersToTeaspoons">Milliliters to Teaspoons</option>
+        <option value="MillilitersToTablespoons">Milliliters to Tablespoons</option>
+        <option value="HectaresToAcres">Hectares to Acres</option>
+        <option value="JoulesToCalories">Joules to Calories</option>
+        <option value="PascalsToBars">Pascals to Bars</option>
+      </select>
+    </div>
+    <button id="convert">Convert</button>
+    <p id="result"></p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
